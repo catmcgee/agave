@@ -71,6 +71,8 @@ Release channels have their own copy of this changelog:
 * `solana-test-validator` now activates Alpenglow consensus at genesis by default. The `--alpenglow` flag
   no longer has any effect and it is no longer possible to start a test-validator with TowerBFT.
 * `solana-genesis` now activates Alpenglow consensus at genesis by default.
+* `--url` now accepts `mainnet` as a moniker (`mainnet-beta` and `m` still work). The mainnet moniker and
+  the default RPC URL now point to <https://api.mainnet.solana.com>.
 
 ### Geyser
 
